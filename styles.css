@@ -65,6 +65,39 @@ li{
   padding: 24px;
   background-color: grey;
 }
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px;
+  padding: 30px;
+  background-color: #3882f6;
+  color: white;
+}
+.box .boxText{
+  font-size: 12px;
+  border: 1px solid red;
+}
+.box button{
+  border-radius: 4px;
+  background-color: #3882f6;
+  border-color: white;  
+  color: white;
+  padding: 10px;  
+}
+/*
+.box div {
+  width: 100px;
+  height: 100px;
+  background-color: #3882F6;
+}*/
+.footer{
+  background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  padding: 4px;
+  color: white;
+}
 /*
 html{
   display: flex;
