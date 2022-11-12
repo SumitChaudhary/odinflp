@@ -5,7 +5,8 @@
   margin: 0;
   padding: 0;
   border: 0;
-  font-family: 'Roboto', sans-serif;
+  /*border: 1px solid red; */
+  font-family: 'Roboto', sans-serif;  
 }
 header{
   display: flex;
@@ -34,14 +35,36 @@ li{
   background-color: #1F2937;
   display: flex;
   justify-content: space-between;
-  align-content: center;
-  padding: 4px;
+  align-content: center;  
   color: white;
 }
-.fs .fsl P{    
-  font-size: 48px;
+.fsl{
+  padding: 48px;  
+  flex-direction: column;  
 }
-
+.fsl p{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 30px;
+}
+.fsl section{
+  font-size: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.fsl button{
+  background-color: #3882f6;
+  border-radius: 2px;
+  padding: 5px;  
+  color: white;
+}
+.fsr{
+  padding: 48px;  
+}
+.fsr p{
+  padding: 24px;
+  background-color: grey;
+}
 /*
 html{
   display: flex;
