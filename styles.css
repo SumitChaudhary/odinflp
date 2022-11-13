@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   border: 0;
-  /*border: 1px solid red; */
+  /*border: 1px solid red;*/
   font-family: 'Roboto', sans-serif;  
 }
 header{
@@ -54,7 +54,7 @@ li{
 }
 .fsl button{
   background-color: #3882f6;
-  border-radius: 2px;
+  border-radius: 4px;
   padding: 5px;  
   color: white;
 }
@@ -65,6 +65,19 @@ li{
   padding: 24px;
   background-color: grey;
 }
+.quote{
+  background-color: #E5E7EB;
+  font-size: 20px;
+  font-weight: light;
+  font-style: italic;  
+  display: flex; 
+  flex-direction: column;
+  padding: 40px;  
+}
+.quote figcaption{
+  font-weight: bold;
+  text-align: right;
+}
 .box {
   display: flex;
   align-items: center;
@@ -73,24 +86,21 @@ li{
   padding: 30px;
   background-color: #3882f6;
   color: white;
+  border-radius: 5px;
 }
 .box .boxText{
-  font-size: 12px;
-  border: 1px solid red;
+  font-size: 25px;  
+}
+.box .boxSubText{
+  font-size: 12px;  
 }
 .box button{
-  border-radius: 4px;
+  border: 1px solid white;
   background-color: #3882f6;
-  border-color: white;  
+  border-radius: 4px;
   color: white;
   padding: 10px;  
 }
-/*
-.box div {
-  width: 100px;
-  height: 100px;
-  background-color: #3882F6;
-}*/
 .footer{
   background-color: #1F2937;
   display: flex;
